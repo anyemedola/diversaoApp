@@ -1,17 +1,55 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>
-      Tab 1
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+
+    <ion-row> <!-- [START] 1º row -->
+
+      <ion-col size="6"> <!-- [START] 1º column -->
+        <h1>Sonic: O filme</h1>
+          <h2>12 de fevereiro de 2020</h2>
+          <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/Kt9iFdTu5TbAm7tNfc876mrWU.jpg"/>
+            <p>Depois de descobrir um ouriço pequeno, azul e rápido, um policial de uma pequena cidade deve ajudá-lo a derrotar um gênio do mal que deseja fazer experiências com…</p>
+              <ion-button expand="block" fill="outline">Mais informações</ion-button>
+      </ion-col> <!-- [END] 1º column -->
+
+      <ion-col size="6"> <!-- [START] 2º column -->
+        <h1>Meninas Malvadas</h1>
+          <h2>30 de Abril de 2004</h2>
+            <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/gFafqi91tc9vCsV3RaYsmw08LgA.jpg"/>
+            <p>Cady Heron (Lindsay Lohan) é uma garota que cresceu na África e sempre estudou em casa, nunca tendo ido a uma escola. Após retornar aos Estados Unidos com seus pais…</p>
+            <ion-button expand="block" fill="outline">Mais informações</ion-button>
+      </ion-col> <!-- [END] 2º column -->
+
+    </ion-row> <!-- [END] 1º row-->
+
+    <ion-row> <!-- [START] 2º row -->
+
+      <ion-col size="6"> <!-- [START] 1º column -->
+        <h1>Aves de Rapina</h1>
+          <h2>5 de fevereiro de 2020</h2>
+          <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/oFfDC7ouX63C2hj6LsF9Cm7A5Nb.jpg"/>
+            <p>Arlequina, Canário Negro, Caçadora, Cassandra Cain e a policial Renée Montoya formam um grupo inusitado de heroínas. Quando um perigoso criminoso começa a causar…</p>
+              <ion-button expand="block" fill="outline">Mais informações</ion-button>
+      </ion-col> <!-- [END] 2º column -->
+
+      <ion-col size="6"> <!-- [START] 2º column -->
+        <h1>Dolittle</h1>
+          <h2>1 de Janeiro de 2020</h2>
+            <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/eiMUDeDBH4s1dbtbcnmasAtgssZ.jpg"/>
+              <p>O Dr. Dolittle vive com uma variedade de animais exóticos e conversa com eles diariamente. Quando a jovem rainha Victoria fica doente, o excêntrico médico e seus…</p>
+              <ion-button expand="block" fill="outline">Mais informações</ion-button>
+      </ion-col> <!-- [END] 2º column -->
+
+    </ion-row> <!-- [END] 2º row -->
+
+  </ion-grid>
+
 </ion-content>
